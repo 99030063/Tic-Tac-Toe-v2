@@ -1,8 +1,8 @@
 function mousePressed() {
 
-    if (Object.entries(posArray).length == 0) {
-        reset()
-    } else {
+    // if (Object.entries(posArray).length == 0) {
+    //     reset()
+    // } else {
 
         for (let coords in posArray) {
             let x1 = posArray[coords][0][0];
@@ -27,7 +27,7 @@ function mousePressed() {
                 }
             }
         }
-    }
+//     }
 }
 
 function checkIfWon() {
