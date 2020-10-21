@@ -12,7 +12,7 @@ function reset() {
         "12": [[265, 355], [165, 255]],
         "22": [[265, 355], [265, 355]]
     }
-    onBoard = []
+    onBoard = [];
     board = [
         [/* [0][0] [0][1] [0][2]*/],
         [/* [1][0] [1][1] [1][2]*/],
@@ -22,7 +22,7 @@ function reset() {
     btn.style.display = "none"
 }
 
-function drawGrid() {
+function drawGrid(){
     rect(155, 65, 10, 290, 20)
     rect(255, 65, 10, 290, 20)
     rect(65, 155, 290, 10, 20)
