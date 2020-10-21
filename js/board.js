@@ -19,6 +19,7 @@ function reset() {
         [/* [2][0] [2][1] [2][2]*/]
     ];
     won = NaN
+    btn.style.display = "none"
 }
 
 function drawGrid() {
