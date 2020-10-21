@@ -11,7 +11,7 @@ class Ox{
         translate(this.x, this.y)
         
         if (this.type == 0) {
-            // This draws an orange X
+
             rotate(PI / 4)
             if (this.alpha != 255) {
                 this.alpha += 25;
@@ -20,7 +20,7 @@ class Ox{
             rect(-30, -4, 60, 8)
             rect(-4, -30, 8, 60)
         } else if (this.type == 1) {
-            //this draws a red circle
+      
             if (this.alpha != 255) {
                 this.alpha += 25;
                 fill(255, 77, 77, this.alpha)
